@@ -1,0 +1,48 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	/*background: url('../images/cookie-monster.jpg');*/
+	background: url(../images/stalin-vapor.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background: rgb(201, 73, 73);
+	width: 370px;
+	color: white;
+	padding: 25px;
+}
+
+h1{
+	font-size: 77px;
+	font-family: 'Bebas Neue'
+}
+h2{
+	font-family: 'Bebas Neue';
+	font-size: 44px;
+	text-align :center;
+	background: #993131;
+	color: rgb(255, 255, 255);
+	padding: 10px;
+	border-radius: 20px
+}
+a{
+	color: #75c1f6;
+	text-decoration: none;
+}
+p{
+	font-family: 'Architects Daughter';
+	font-size: 23px;
+}
